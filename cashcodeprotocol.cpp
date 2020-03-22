@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * Возвращает наминал принятой/распознаной и отправленной в стек купюры.
+ * Возвращает номинал принятой/распознаной и отправленной в стек купюры.
  */
 int CashCodeProtocol::CashCodeTable(byte code)
 {
@@ -148,7 +148,7 @@ void CashCodeProtocol::ValidatorListener()
 
 /*
  * Функция отправки команды купюроприемнику, после чего возвращает полученных результат от
- * купюроприемника в вите вектора байтов.
+ * купюроприемника в виде вектора байтов.
  */
 vec_bytes CashCodeProtocol::SendCommand(ValidatorCommands cmd, vec_bytes Data)
 {
