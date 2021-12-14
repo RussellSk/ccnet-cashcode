@@ -12,7 +12,7 @@
 typedef std::vector<unsigned char> vec_bytes;
 typedef unsigned char byte;
 
-// Размер буфера чтения для COP-порта
+// Размер буфера чтения для COM-порта
 #define SERIAL_PORT_READ_BUF_SIZE 256
 
 typedef boost::shared_ptr<boost::asio::serial_port> serial_port_ptr;
